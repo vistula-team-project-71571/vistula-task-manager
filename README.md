@@ -12,8 +12,8 @@ A minimal Task Manager application built with Vue 3 and Supabase.
 - Functionality: Create, Read, Update, and Delete (CRUD) tasks.
 
  ## Part B: Team Collaboration 
-- Incoming PR (Merged from partner):[73888](https://github.com/vistula-team-project-73888/vistula-task-manager-fork/tree/feature/team-contribution) 
-- Outgoing PR (Merged into partner's repo):[71571](https://github.com/vistula-team-project-71571/vistula-task-manager-forked/tree/feature/team-contribution) 
+- Incoming PR (Merged from partner): [73888](https://github.com/vistula-team-project-73888/vistula-task-manager-fork/tree/feature/team-contribution) 
+- Outgoing PR (Merged into partner's repo): [71571](https://github.com/vistula-team-project-71571/vistula-task-manager-forked/tree/feature/team-contribution) 
 
 ---
 
