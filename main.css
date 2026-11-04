@@ -1,0 +1,98 @@
+:root {
+  --royal-azure: #2f52e0ff;
+  --burnt-tangerine: #e03616ff;
+  --green: #317b22ff;
+  --mint-cream: #f7fff6ff;
+  --onyx: #0a0a0aff;
+}
+
+body {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  max-width: 600px;
+  margin: 2rem auto;
+  padding: 0 1rem;
+  background-color: var(--mint-cream);
+  color: var(--onyx);
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+color: var(--royal-azure);
+text-decoration: underline;
+}
+
+#student-id {
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+}
+
+#status-message {
+  margin: 1rem 0;
+  font-weight: bold;
+  color: var(--burnt-tangerine);
+}
+
+form div {
+  margin-bottom: 0.5rem;
+}
+
+input[type="text"],
+textarea {
+  width: 100%;
+  padding: 0.5rem;
+  border: 1px solid var(--onyx);
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+button {
+  cursor: pointer;
+  padding: 0.4rem 0.8rem;
+  border-radius: 4px;
+  border: 1px solid var(--onyx);
+  background-color: var(--mint-cream);
+  color: var(--onyx);
+  font-weight: 500;
+  margin-right: 0.25rem;
+  margin-top: 0.25rem;
+}
+
+button#task-submit {
+  background-color: var(--royal-azure);
+  color: var(--mint-cream);
+  border-color: var(--royal-azure);
+}
+
+button.toggle-task {
+  background-color: var(--green);
+  color: var(--mint-cream);
+  border-color: var(--green);
+}
+
+button.edit-task {
+  background-color: var(--royal-azure);
+  color: var(--mint-cream);
+  border-color: var(--royal-azure);
+}
+
+button.delete-task {
+  background-color: var(--burnt-tangerine);
+  color: var(--mint-cream);
+  border-color: var(--burnt-tangerine);
+}
+
+.task-item {
+  border: 1px solid var(--onyx);
+  background-color: #ffffff;
+  padding: 1rem;
+  margin-bottom: 0.75rem;
+  border-radius: 6px;
+}
+
+.task-title.completed {
+  text-decoration: line-through;
+  opacity: 0.7;
+}
