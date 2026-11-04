@@ -17,4 +17,4 @@ A minimal Task Manager application built with Vue 3 and Supabase.
 
 ---
 
-*Developed for Module Team Project.*
+*Developed for Module: Team Project.*
